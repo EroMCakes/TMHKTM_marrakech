@@ -6,13 +6,15 @@ using UnityEngine.UI;
 public class PanelController : MonoBehaviour
 {
     [SerializeField]
-    GameObject[] panelPrefabs;
+    public GameObject[] panelPrefabs;
 
     [SerializeField]
-    GameObject mainCanvas;
+    public GameObject mainCanvas;
 
     private void Awake()
     {
         Instantiate(panelPrefabs[0]).transform.SetParent(mainCanvas.transform, false);
     }
+
+    
 }
