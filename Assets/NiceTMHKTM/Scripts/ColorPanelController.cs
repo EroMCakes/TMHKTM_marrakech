@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using ViewControllTools;
 
 public class ColorPanelController : MonoBehaviour
 {
@@ -87,12 +88,14 @@ public class ColorPanelController : MonoBehaviour
     }
 
     public void BackButton() {
-        Destroy(panelController.mainCanvas.transform.GetChild(0));
-        Instantiate(panelController.panelPrefabs[6]).transform.SetParent(panelController.mainCanvas.transform, false);
+        ViewController.LoadViewWithIndex(6);
     }
 
     public void ValidateColorCode() {
         //check code value and load next prefab
+        if (code == 8569) {
+            ViewController.LoadViewWithIndex(8);
+        }
     }
     // Start is called before the first frame update
     void Start()

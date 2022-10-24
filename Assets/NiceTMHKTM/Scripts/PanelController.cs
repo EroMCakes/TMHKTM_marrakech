@@ -2,18 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using ViewControllTools;
 
 public class PanelController : MonoBehaviour
 {
     [SerializeField]
-    public GameObject[] panelPrefabs;
+    public GameObject[] englishPanelPrefabs, frenchPanelPrefabs;
+
+    public string language = "english";
 
     [SerializeField]
     public GameObject mainCanvas;
 
     private void Awake()
     {
-        Instantiate(panelPrefabs[0]).transform.SetParent(mainCanvas.transform, false);
+        ViewController.LoadViewWithIndex(0);
     }
 
     

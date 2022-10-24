@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff5d85920abc43743992ad8c29a223da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelPrefabs:
+  englishPanelPrefabs:
   - {fileID: 8544897049362442473, guid: 16f82685aab0c19409ed7ecb9501481b, type: 3}
   - {fileID: 1876322825953739336, guid: 9c3f5b2ef628a5b468c52970b17348fd, type: 3}
   - {fileID: 2034910381126789797, guid: f8524b12cd5212042b5848b181de5023, type: 3}
@@ -166,6 +166,21 @@ MonoBehaviour:
   - {fileID: 6265755025622727074, guid: b8d2addb704e5b34e9175d2c8b3555d6, type: 3}
   - {fileID: 5716457089726331878, guid: 3b41c2ec70765a74ab8fc9e328cb9a5c, type: 3}
   - {fileID: 9135934309746297539, guid: 3fc0576ade13fa64c84baff8542b6f07, type: 3}
+  frenchPanelPrefabs:
+  - {fileID: 8544897049362442473, guid: eaa4c1b820832584dbe5cacf1efe7e08, type: 3}
+  - {fileID: 1876322825953739336, guid: 5e9793b5353c5784d83469a2d9cf6d5c, type: 3}
+  - {fileID: 2034910381126789797, guid: d3a77f2ce07b032489c25e40019656a7, type: 3}
+  - {fileID: 1919090697180962453, guid: 88353fe24c35abc4f941930d316743a8, type: 3}
+  - {fileID: 1417361678827431864, guid: f0b224ccffe41de4291a4f693a51d5f7, type: 3}
+  - {fileID: 7130607151668120846, guid: 2d693645373c70b43a3458352c54a9ba, type: 3}
+  - {fileID: 5135202923192449633, guid: bfa83cf5d47886b46b616c39354dfc0f, type: 3}
+  - {fileID: 1825547073101792100, guid: 9270daff159dd68489a1e38e6f8fd098, type: 3}
+  - {fileID: 7596916530561616133, guid: 874ec50b733656748b49b3b634ef1417, type: 3}
+  - {fileID: 7466570225153598197, guid: 5095cb79946a23744bafbdba6db66365, type: 3}
+  - {fileID: 6265755025622727074, guid: 2a637b9339e4ce541b198b12b7e87eff, type: 3}
+  - {fileID: 5716457089726331878, guid: 30e926c9ba707104dbfa2bef08e5a10a, type: 3}
+  - {fileID: 9135934309746297539, guid: 603433698a8cee643b38a90ed8510a41, type: 3}
+  language: english
   mainCanvas: {fileID: 443547606}
 --- !u!4 &50965657
 Transform:
