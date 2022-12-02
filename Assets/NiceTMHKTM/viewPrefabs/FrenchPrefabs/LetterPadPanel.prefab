@@ -147,6 +147,64 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_ShouldActivateOnSelect: 1
+--- !u!1 &218111530140153762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4094972369323590306}
+  - component: {fileID: 3341964907734737711}
+  - component: {fileID: 9145459702561077832}
+  m_Layer: 0
+  m_Name: PadController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4094972369323590306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218111530140153762}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 70.55444, y: -236.66852, z: -9.288394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2183386133100693411}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3341964907734737711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218111530140153762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0461fa4ce13694a932ecf26ffbcf8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 3484946204335952310}
+--- !u!114 &9145459702561077832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218111530140153762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36efcc6a5d21def42a433ef9a90e7e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &339316578330460452
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,7 +325,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8730005313015177897}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Y
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1017201376905798155
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +458,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6110285825729503569}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: E
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1020568227071557651
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,7 +591,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1346772830431035798}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Q
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1079382630941553700
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,7 +804,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1866783687696847997}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: X
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1417361678827431864
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +852,7 @@ RectTransform:
   - {fileID: 4262087370736035785}
   - {fileID: 5476284898552176538}
   - {fileID: 3324839421234334905}
+  - {fileID: 4094972369323590306}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -782,7 +889,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0713648c6d7a2dc45bd19d1c3e7eb071, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 34188d7606b9d524ca3bd52bbf5d784d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -792,6 +899,139 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1495057026340121287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9114194580724660737}
+  - component: {fileID: 8441592636071633399}
+  - component: {fileID: 8468335503571918022}
+  - component: {fileID: 4080934816349892514}
+  m_Layer: 5
+  m_Name: OButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9114194580724660737
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495057026340121287}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4262087370736035785}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -5, y: -32.999954}
+  m_SizeDelta: {x: 104, y: 102}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8441592636071633399
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495057026340121287}
+  m_CullTransparentMesh: 1
+--- !u!114 &8468335503571918022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495057026340121287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4b8f5737bb4741d48a47924d7d801ec8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4080934816349892514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495057026340121287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8468335503571918022}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: O
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1659993259346078998
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +1152,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5639586435213894521}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: J
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1679686654806428007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +1285,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6567263545516375636}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: W
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2008763262483065206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,7 +1418,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 81390034414580302}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: C
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2550700736871455137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,7 +1551,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4035565404316541657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: U
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2573373174836461600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,7 +1684,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1152998006999156389}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Z
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2666512394767253357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,7 +1817,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5441816372577578085}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9145459702561077832}
+        m_TargetAssemblyTypeName: ViewControllTools.ViewController, Assembly-CSharp
+        m_MethodName: LoadViewWithIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2678149824287215118
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +1882,8 @@ RectTransform:
   - {fileID: 1723137511472922576}
   - {fileID: 5178133891667670732}
   - {fileID: 8966084440372226444}
+  - {fileID: 9114194580724660737}
+  - {fileID: 6274875154973561546}
   - {fileID: 3812270820315073188}
   m_Father: {fileID: 2183386133100693411}
   m_RootOrder: 2
@@ -1699,7 +2013,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 116480346661564795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: A
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3346211943913247788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,7 +2062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -271.4, y: -32.999954}
+  m_AnchoredPosition: {x: -399, y: -32.999954}
   m_SizeDelta: {x: 104, y: 102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5310132591042028379
@@ -1820,7 +2146,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6231610197420168597}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: I
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4237810797987454598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,11 +2191,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4262087370736035785}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207, y: -33}
+  m_AnchoredPosition: {x: 321, y: -33}
   m_SizeDelta: {x: 232, y: 102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2822781560944483794
@@ -1941,7 +2279,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3581177083667966893}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: BackSpace
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4253225362420236150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,7 +2412,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1645603317031145720}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: R
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4640145207495131609
 GameObject:
   m_ObjectHideFlags: 0
@@ -2183,7 +2545,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 511422318264718741}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: CodeValidation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4785966594658735873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2304,7 +2678,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3701567803484935959}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: ResetStringCode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5078862781580052845
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,7 +2727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135, y: -32.999954}
+  m_AnchoredPosition: {x: -262.6, y: -32.999954}
   m_SizeDelta: {x: 104, y: 102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8598858641763820678
@@ -2425,7 +2811,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7220122363129739285}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: K
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5147510689119835521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,7 +2944,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7853474461020811862}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: F
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5525325718045747374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,7 +3077,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8601450465465784970}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: N
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5563188093393713356
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,7 +3210,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4424068985688109212}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: B
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6088451167054823440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,6 +3303,139 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!1 &6431565076602943518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6274875154973561546}
+  - component: {fileID: 8870303699605641282}
+  - component: {fileID: 4150917601540721067}
+  - component: {fileID: 6727923719405678811}
+  m_Layer: 5
+  m_Name: PButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6274875154973561546
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431565076602943518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4262087370736035785}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 126.399994, y: -32.999954}
+  m_SizeDelta: {x: 104, y: 102}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8870303699605641282
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431565076602943518}
+  m_CullTransparentMesh: 1
+--- !u!114 &4150917601540721067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431565076602943518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 53a5dfa705d0c2e49b262071ad22df2a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6727923719405678811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431565076602943518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 4150917601540721067}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: P
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6696518969598524140
 GameObject:
   m_ObjectHideFlags: 0
@@ -2989,7 +3556,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7701556713437317115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: H
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6754142291410311834
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,7 +3689,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2215706228618919351}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: V
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7732504964611865925
 GameObject:
   m_ObjectHideFlags: 0
@@ -3231,7 +3822,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8859280338684829606}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: S
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8026994363342945952
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,7 +3955,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7823842181257054300}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: G
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8782094177142645027
 GameObject:
   m_ObjectHideFlags: 0
@@ -3473,7 +4088,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2640785633916743533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: L
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8917682405905400987
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,7 +4137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.600006, y: -32.999954}
+  m_AnchoredPosition: {x: -131.20001, y: -32.999954}
   m_SizeDelta: {x: 104, y: 102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4213661105100472187
@@ -3594,7 +4221,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3343941596377291298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: M
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9037228646685006838
 GameObject:
   m_ObjectHideFlags: 0
@@ -3715,7 +4354,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 274725712992438575}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: D
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9181104691314083415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3836,4 +4487,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8391682786917456513}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3341964907734737711}
+        m_TargetAssemblyTypeName: cobraController, Assembly-CSharp
+        m_MethodName: EnterLetterAs
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T
+          m_BoolArgument: 0
+        m_CallState: 2

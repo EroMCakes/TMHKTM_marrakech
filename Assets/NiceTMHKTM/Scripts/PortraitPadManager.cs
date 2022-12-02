@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using ViewControllTools;
 
 public class PortraitPadManager : MonoBehaviour
 {
@@ -14,10 +15,14 @@ public class PortraitPadManager : MonoBehaviour
 
     public void ValidateCodeField() {
         if(codeField.text == "814") {
-            // to next view
+            ViewController.LoadViewWithIndex(10);
         } else {
             codeField.text = "";
         }
+    }
+
+    public void BackButton() {
+        ViewController.LoadViewWithIndex(8);
     }
     // Start is called before the first frame update
     void Start()

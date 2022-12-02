@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Orange" size="20.000000 37.597767" />
+    <ImageTarget name="Target_Geo" size="20.000000 11.250000" />
+    <ImageTarget name="Target_ETM" size="20.000000 11.250000" />
+    <ImageTarget name="Target_Juice" size="20.000000 12.725695" />
+    <ImageTarget name="Target_Mosquee" size="20.000000 11.250000" />
+    <ImageTarget name="Target_Fatma" size="20.000000 11.250000" />
+    <ImageTarget name="Target_N" size="20.000000 28.333334" />
+    <ImageTarget name="Target_K" size="20.000000 28.333334" />
+    <ImageTarget name="Target_T" size="20.000000 28.333334" />
+    <ImageTarget name="Target_R" size="20.000000 28.333334" />
+    <ImageTarget name="Target_C" size="20.000000 28.333334" />
+    <ImageTarget name="Target_O" size="20.000000 28.333334" />
+    <ImageTarget name="Target_A" size="20.000000 28.333334" />
+    <ImageTarget name="Target_B" size="20.000000 28.333334" />
+    <ImageTarget name="Target_L" size="20.000000 28.333334" />
+    <ImageTarget name="Target_P" size="20.000000 28.333334" />
+  </Tracking>
+</QCARConfig>

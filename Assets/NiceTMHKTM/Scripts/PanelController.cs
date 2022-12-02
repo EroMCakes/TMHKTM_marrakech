@@ -9,6 +9,9 @@ public class PanelController : MonoBehaviour
     [SerializeField]
     public GameObject[] englishPanelPrefabs, frenchPanelPrefabs;
 
+    [SerializeField]
+    public GameObject[] frenchTargets, englishTargets;
+
     public string language = "english";
 
     [SerializeField]

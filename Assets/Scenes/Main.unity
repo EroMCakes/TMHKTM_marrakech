@@ -171,7 +171,7 @@ MonoBehaviour:
   - {fileID: 1876322825953739336, guid: 5e9793b5353c5784d83469a2d9cf6d5c, type: 3}
   - {fileID: 2034910381126789797, guid: d3a77f2ce07b032489c25e40019656a7, type: 3}
   - {fileID: 1919090697180962453, guid: 88353fe24c35abc4f941930d316743a8, type: 3}
-  - {fileID: 1417361678827431864, guid: f0b224ccffe41de4291a4f693a51d5f7, type: 3}
+  - {fileID: 1417361678827431864, guid: 9ddad7c8a57ad94409ede4c24b559bb9, type: 3}
   - {fileID: 7130607151668120846, guid: 2d693645373c70b43a3458352c54a9ba, type: 3}
   - {fileID: 5135202923192449633, guid: bfa83cf5d47886b46b616c39354dfc0f, type: 3}
   - {fileID: 1825547073101792100, guid: 9270daff159dd68489a1e38e6f8fd098, type: 3}
@@ -180,6 +180,12 @@ MonoBehaviour:
   - {fileID: 6265755025622727074, guid: 2a637b9339e4ce541b198b12b7e87eff, type: 3}
   - {fileID: 5716457089726331878, guid: 30e926c9ba707104dbfa2bef08e5a10a, type: 3}
   - {fileID: 9135934309746297539, guid: 603433698a8cee643b38a90ed8510a41, type: 3}
+  frenchTargets:
+  - {fileID: 0}
+  - {fileID: 2669905805205091458, guid: 2bf7bb04098130a428ffca0da6a43aba, type: 3}
+  englishTargets:
+  - {fileID: 0}
+  - {fileID: 7318238964385977855, guid: d081f4a356272db429e26281fac5faf4, type: 3}
   language: english
   mainCanvas: {fileID: 443547606}
 --- !u!4 &50965657
@@ -340,7 +346,7 @@ GameObject:
   - component: {fileID: 765675045}
   - component: {fileID: 765675044}
   - component: {fileID: 765675043}
-  - component: {fileID: 765675042}
+  - component: {fileID: 765675047}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -348,18 +354,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &765675042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765675041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 722147107, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &765675043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,6 +433,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &765675047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765675041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47f92041efbb4b429a4eafca855ebe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &972520303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972520304}
+  m_Layer: 0
+  m_Name: 'CobraTargets '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &972520304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972520303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.23301, y: 3.723845, z: -6.7051697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1414302940
 GameObject:

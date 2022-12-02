@@ -95,6 +95,8 @@ public class ColorPanelController : MonoBehaviour
         //check code value and load next prefab
         if (code == 8569) {
             ViewController.LoadViewWithIndex(8);
+        } else {
+            ResetCode();
         }
     }
     // Start is called before the first frame update

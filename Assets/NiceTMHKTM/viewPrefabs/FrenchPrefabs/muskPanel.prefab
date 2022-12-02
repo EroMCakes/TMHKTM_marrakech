@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 30d0f46ca456d0446816b0c3ba927b38, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9622f796c237ea948900ad60941c2ba7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -347,7 +347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Capture victim's arrival position
+  m_Text: Entrez la position de la victime
 --- !u!1 &5716457089726331878
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 158c8d8b93be8974399f87900ea02eb9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 671d96df8d4a752498e305cda9ff2881, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -654,7 +654,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter Victim's Name
+  m_Text: Entrez le nom de la victime
 --- !u!1 &5716457090729169884
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +802,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 20c7cbdd6a8cde7439b7d8dee9e3f899, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e3eff5bb8e8702643b55a12e7912dff7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
