@@ -181,10 +181,10 @@ MonoBehaviour:
   - {fileID: 5716457089726331878, guid: 30e926c9ba707104dbfa2bef08e5a10a, type: 3}
   - {fileID: 9135934309746297539, guid: 603433698a8cee643b38a90ed8510a41, type: 3}
   frenchTargets:
-  - {fileID: 0}
+  - {fileID: 4020490699749810643, guid: 9ce3deac2efbade489d96b722941680b, type: 3}
   - {fileID: 2669905805205091458, guid: 2bf7bb04098130a428ffca0da6a43aba, type: 3}
   englishTargets:
-  - {fileID: 0}
+  - {fileID: 4020490699749810643, guid: 9ce3deac2efbade489d96b722941680b, type: 3}
   - {fileID: 7318238964385977855, guid: d081f4a356272db429e26281fac5faf4, type: 3}
   language: english
   mainCanvas: {fileID: 443547606}
@@ -446,37 +446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c47f92041efbb4b429a4eafca855ebe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &972520303
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 972520304}
-  m_Layer: 0
-  m_Name: 'CobraTargets '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &972520304
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972520303}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.23301, y: 3.723845, z: -6.7051697}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1414302940
 GameObject:
   m_ObjectHideFlags: 0

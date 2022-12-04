@@ -11,6 +11,12 @@ public class cobraController : MonoBehaviour
 
     private string inputCode;
 
+    private PanelController panelController;
+
+    private void Start() {
+        panelController = GameObject.FindObjectOfType<PanelController>();
+    }
+
 
     public void EnterLetterAs(string letter) {
         if (inputField.text == "Insert code..." || inputField.text == "Insérez le code...") {
@@ -32,6 +38,12 @@ public class cobraController : MonoBehaviour
 
     public void CodeValidation() {
         if (inputCode == "COBRA") {
+            Destroy(GameObject.Find("CobraTargets (Clone)"));
+            if(panelController.language == "english") {
+                Instantiate(panelController.englishTargets[1]);
+            } else {
+                Instantiate(panelController.frenchTargets[1]);
+            }
             ViewController.LoadViewWithIndex(5);
         } else {
             ResetStringCode();
