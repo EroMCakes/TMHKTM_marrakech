@@ -40,9 +40,9 @@ public class cobraController : MonoBehaviour
         if (inputCode == "COBRA") {
             Destroy(GameObject.Find("CobraTargets (Clone)"));
             if(panelController.language == "english") {
-                Instantiate(panelController.englishTargets[1]);
+                panelController.englishTargets[1].SetActive(true);
             } else {
-                Instantiate(panelController.frenchTargets[1]);
+                panelController.frenchTargets[1].SetActive(true);
             }
             ViewController.LoadViewWithIndex(5);
         } else {

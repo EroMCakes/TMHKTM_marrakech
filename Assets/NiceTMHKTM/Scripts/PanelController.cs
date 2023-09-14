@@ -20,6 +20,8 @@ public class PanelController : MonoBehaviour
     private void Awake()
     {
         ViewController.LoadViewWithIndex(0);
+        englishTargets[1].SetActive(false);
+        frenchTargets[1].SetActive(false);
     }
 
     
