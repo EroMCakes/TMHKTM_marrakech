@@ -19,7 +19,7 @@ public class cobraController : MonoBehaviour
 
 
     public void EnterLetterAs(string letter) {
-        if (inputField.text == "Insert code..." || inputField.text == "Insérez le code...") {
+        if (inputField.text == "Insert code..." || inputField.text == "Insérez le code..." || inputField.text == "Inserire il codice…") {
             ResetStringCode();
         }
         inputCode += letter;
@@ -41,6 +41,8 @@ public class cobraController : MonoBehaviour
             Destroy(GameObject.Find("CobraTargets (Clone)"));
             if(panelController.language == "english") {
                 panelController.englishTargets[1].SetActive(true);
+            } else if(panelController.language == "italian") {
+                panelController.italianTargets[1].SetActive(true);
             } else {
                 panelController.frenchTargets[1].SetActive(true);
             }

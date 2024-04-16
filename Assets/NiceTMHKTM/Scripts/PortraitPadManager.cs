@@ -10,7 +10,7 @@ public class PortraitPadManager : MonoBehaviour
     private Text codeField;
 
     public void EnterDigit(int enteredNumber) {
-        if (codeField.text == "Insert code..." || codeField.text == "Entrez le Code..." || codeField.text == "EROR") codeField.text = "";
+        if (codeField.text == "Insert code..." || codeField.text == "Entrez le Code..." || codeField.text == "Inserir il codice...") codeField.text = "";
         codeField.text += enteredNumber.ToString();
     }
     
@@ -26,16 +26,5 @@ public class PortraitPadManager : MonoBehaviour
 
     public void BackButton() {
         ViewController.LoadViewWithIndex(8);
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

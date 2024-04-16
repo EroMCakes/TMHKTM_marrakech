@@ -7,10 +7,10 @@ using ViewControllTools;
 public class PanelController : MonoBehaviour
 {
     [SerializeField]
-    public GameObject[] englishPanelPrefabs, frenchPanelPrefabs;
+    public GameObject[] englishPanelPrefabs, frenchPanelPrefabs, italianPanelPrefabs;
 
     [SerializeField]
-    public GameObject[] frenchTargets, englishTargets;
+    public GameObject[] frenchTargets, englishTargets, italianTargets;
 
     public string language = "english";
 
@@ -22,6 +22,7 @@ public class PanelController : MonoBehaviour
         ViewController.LoadViewWithIndex(0);
         englishTargets[1].SetActive(false);
         frenchTargets[1].SetActive(false);
+        italianTargets[1].SetActive(false);
     }
 
     

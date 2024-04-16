@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Vuforia;
 
 public class MonumentController : MonoBehaviour
 {
@@ -9,12 +10,6 @@ public class MonumentController : MonoBehaviour
     void Start()
     {
         panelController = GameObject.FindObjectOfType<PanelController>();
-        Instantiate(panelController.englishTargets[0]);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+                Instantiate(panelController.englishTargets[0]);
     }
 }

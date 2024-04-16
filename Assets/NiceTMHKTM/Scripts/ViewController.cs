@@ -22,6 +22,12 @@ namespace ViewControllTools
                     .transform
                     .SetParent(canvas.transform, false);
             }
+            else if(panelController.language == "italian")
+            {
+                Instantiate(panelController.italianPanelPrefabs[viewIndex])
+                    .transform
+                    .SetParent(canvas.transform, false);
+            }
             else
             {
                 Instantiate(panelController.frenchPanelPrefabs[viewIndex])

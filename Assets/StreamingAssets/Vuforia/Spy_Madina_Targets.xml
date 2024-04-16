@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+<QCARConfig>
   <Tracking>
+    <ImageTarget name="new_mosque" size="20.000000 20.000000" />
+    <ImageTarget name="new_etm" size="20.000000 20.092592" />
+    <ImageTarget name="new_etm_bis" size="20.000000 20.046137" />
+    <ImageTarget name="orange2" size="20.000000 22.808023" />
     <ImageTarget name="Orange" size="20.000000 37.597767" />
     <ImageTarget name="Target_Geo" size="20.000000 11.250000" />
     <ImageTarget name="Target_ETM" size="20.000000 11.250000" />

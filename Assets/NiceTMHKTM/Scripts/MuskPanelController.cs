@@ -37,9 +37,4 @@ public void LoadBackView() => ViewController.LoadViewWithIndex(10);
         panelController = GameObject.FindObjectOfType<PanelController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
